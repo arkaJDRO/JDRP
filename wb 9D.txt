@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Header</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.logo {
+			font-size: 24px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			margin: 0;
+			padding: 0;
+		}
+		.navigation {
+			display: none;
+		}
+		.menu-icon {
+			font-size: 24px;
+			color: #fff;
+			cursor: pointer;
+		}
+		@media only screen and (min-width: 768px) {
+			.navigation {
+				display: flex;
+				align-items: center;
+			}
+			.navigation ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				display: flex;
+				align-items: center;
+			}
+			.navigation li {
+				margin: 0 10px;
+			}
+			.navigation li a {
+				color: #fff;
+				text-decoration: none;
+				font-size: 18px;
+				padding: 10px 20px;
+				border-radius: 5px;
+				transition: background-color 0.3s ease;
+			}
+			.navigation li a:hover {
+				background-color: #ddd;
+			}
+			.menu-icon {
+				display: none;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<h1 class="logo">Arka J.D.R.O</h1>
+		<nav class="navigation">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="menu-icon">&#9776;</div>
+	</header>
+	
+	<!-- Your website content goes here -->
+	
+	<script>
+		const menuIcon = document.querySelector('.menu-icon');
+		const navigation = document.querySelector('.navigation');
+		menuIcon.addEventListener('click', () => {
+			navigation.classList.toggle('show');
+		});
+	</script>
+</body>
+</html>
+
+  <title>Cool Chatting AI</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      border-radius: 5px;
+    }
+    .message {
+      margin: 10px 0;
+    }
+    .message-bot {
+      background-color: #e6f7ff;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: left;
+    }
+    .message-user {
+      background-color: #f2f2f2;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: right;
+    }
+    input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 2px solid #ddd;
+      font-size: 16px;
+    }
+    input[type=text]:focus {
+      border-bottom: 2px solid #5cb85c;
+    }
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      margin: 10px 0;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    input[type=submit]:hover {
+      background-color: #3e8e41;
+    }
+  </style>
+</head>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hero Section</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		.hero-section {
+			background-image: url();
+			background-position: center center;
+			background-size: cover;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			color: #hhh;
+		}
+		.hero-section h1 {
+			font-size: 48px;
+			margin: 0;
+			padding: 0;
+		}
+		.hero-section p {
+			font-size: 24px;
+			margin: 20px 0;
+			padding: 0;
+			max-width: 600px;
+			line-height: 1.5;
+		}
+		.cta-button {
+			display: inline-block;
+			padding: 10px 20px;
+			border-radius: 5px;
+			background-color: #ddd;
+			color: #333;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;
+			transition: background-color 0.3s ease;
+		}
+		.cta-button:hover {
+			background-color: #333;
+			color: #ddd;
+		}
+	</style>
+</head>
+<body>
+	<section class="hero-section">
+		<h1>Welcome to My Website</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lectus nunc. Aliquam erat volutpat. Nulla facilisi.</p>
+		<a href="#" class="cta-button">Get Started</a>
+	</section>
+	
+	<!-- Your website content goes here -->
+	
+</body>
+</html>
+<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channelid="UCnTsCTO1ci988uVXWLf7Sxw" data-layout="full" data-count="hidden"></div>
+<tr>
+</tr>
+<body>
+  <div class="container">
+    <div class="message-bot">Hello! I am your cool chatting AI Arka J.D.R.O. Do you want to be my friend?</div>
+    <div id="chatlog"></div>
+    <form id="chat-form">
+      <input type="text" id="chat-input" placeholder="Type your message here...">
+      <input type="submit" value="Send">
+    </form>
+  </div>
+  <script>
+    const chatForm = document.getElementById('chat-form');
+    const chatInput = document.getElementById('chat-input');
+    const chatLog = document.getElementById('chatlog');
+
+    chatForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const message = chatInput.value.trim();
+      if (message === '') return;
+      chatInput.value = '';
+      const messageElement = document.createElement('div');
+      messageElement.classList.add('message', 'message-user');
+      messageElement.textContent = message;
+      chatLog.appendChild(messageElement);
+      // Here you would need to add the logic for the chatbot to generate a response and add it to the chat log as a "message-bot" element.
+    });
+  </script>
+
+  <!DOCTYPE html>
+<html>
+<head>
+<title>Arka J.D.R.O</title>
+</head>
+<body>
+<h1>Arka J.D.R.O</h1>
+<p>log in to J.D.R.O</p>
+<from>
+<table>
+<tr>
+<td>
+name :
+</td>
+<td>
+<input type="text"placeholder="name" name="">
+</td>
+</tr>
+<tr>
+<td>
+pasword:
+</td>
+<td>
+<input type="pasword"placeholder="pasword" name="">
+</td>
+<tr>
+</tr>
+<td>
+gender:
+</td>
+<td>
+<input type="radio" name= "gender">male
+<input type="radio" name= "gender">female
+</td>
+<tr>
+</tr>
+<td>
+gmail:
+</td>
+<td>
+<input type="gmail"placeholder="gmail" name="">
+</td>
+<tr>
+</tr>
+<tr>
+<td>
+<input type="submit"value="submit" name= "">
+</td>
+</tr>
+<td>
+
+   <body>
+    <h1>To-Do List by Arka J.D.R.O</h1>
+    <input type="text" id="input-box" placeholder="Add new to-do">
+    <button onclick="addTodo()">Add</button>
+    <ul id="todo-list">
+    </ul>
+    <script>
+      const todoList = document.getElementById("todo-list");
+      const inputBox = document.getElementById("input-box");
+
+      function addTodo() {
+        const todoText = inputBox.value;
+        if (todoText !== "") {
+          const todoItem = document.createElement("li");
+          const todoLabel = document.createElement("label");
+          const checkbox = document.createElement("input");
+          checkbox.type = "checkbox";
+          checkbox.onchange = function() {
+            if (checkbox.checked) {
+              todoLabel.classList.add("completed");
+            } else {
+              todoLabel.classList.remove("completed");
+            }
+          }
+          todoLabel.textContent = todoText;
+          todoItem.appendChild(checkbox);
+          todoItem.appendChild(todoLabel);
+          todoList.appendChild(todoItem);
+          inputBox.value = "";
+        }
+      }
+    </script>
+  </body>
+</html>
+</table>
+</from>
+<h1> no more messi and ronaldo</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PMKaGCrOI7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<tr>
+</tr>
+<h1> gause the song </h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ArCeEW79Keo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<tr>
+</tr>
+<h1> violin artist </h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uag3yGeZTzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<tr>
+</tr>
+<h3>SIGMA??</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5WY9fgEa1pk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<tr>
+</tr>
+<h3>what's behind??</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pdWxyFZeaJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<tr>
+</tr>
+<h3> The Boyz</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O-QH0BQcSTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<tr>
+</tr>
+<h3> A vs B </h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yC5_oEokErU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!---Contact--->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>click game</title>
+    <style>
+      #game-board {
+        width: 500px;
+        height: 500px;
+        border: 2px solid black;
+        position: relative;
+      }
+
+      #game-object {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: red;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tap The Red Ball</h1>
+    <p>Click on the red circle to score points!</p>
+    <p>Score: <span id="score">0</span></p>
+    <div id="game-board">
+      <div id="game-object"></div>
+    </div>
+    <script>
+      const gameBoard = document.getElementById("game-board");
+      const gameObject = document.getElementById("game-object");
+      const scoreDisplay = document.getElementById("score");
+      let score = 0;
+
+      gameBoard.addEventListener("click", function() {
+        score++;
+        scoreDisplay.textContent = score;
+      });
+
+      function moveObject() {
+        let x = Math.floor(Math.random() * 450);
+        let y = Math.floor(Math.random() * 450);
+        gameObject.style.left = x + "px";
+        gameObject.style.top = y + "px";
+      }
+
+      setInterval(moveObject, 1000);
+    </script>
+  </body>
+</html>
+
+ 
+
+
+</body>
+</html>
